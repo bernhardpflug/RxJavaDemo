@@ -1,0 +1,14 @@
+# Gradle
+.gradle
+
+# local configuration
+/local.properties
+
+# Intellij
+/.idea/workspace.xml
+/.idea/libraries
+
+
+.DS_Store
+/build
+/captures
