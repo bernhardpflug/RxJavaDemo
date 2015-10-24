@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="bernhardpflug.at.rxjavademo" >
+    package="bernhardpflug.at.rxjavademo">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="at.bernhardpflug.rxjavademo.MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name="at.bernhardpflug.rxjavademo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,12 +17,13 @@
         </activity>
         <activity
             android:name="at.bernhardpflug.rxjavademo.ExampleOneActivity"
-            android:label="@string/title_activity_example_one" >
-        </activity>
+            android:label="@string/title_activity_example_one"></activity>
         <activity
             android:name="at.bernhardpflug.rxjavademo.ExampleTwoActivity"
-            android:label="@string/title_activity_example_two" >
-        </activity>
+            android:label="@string/title_activity_example_two"></activity>
+        <activity
+            android:name="at.bernhardpflug.rxjavademo.ExampleThreeActivity"
+            android:label="@string/title_activity_example_three"></activity>
     </application>
 
 </manifest>

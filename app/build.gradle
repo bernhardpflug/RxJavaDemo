@@ -27,10 +27,14 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+
+
     compile 'com.android.support:appcompat-v7:23.1.0'
-
+    compile 'com.android.support:design:23.1.0'
     compile 'com.jakewharton:butterknife:7.0.1'
-
     compile 'io.reactivex:rxjava:1.0.14'
+    //provides android specific schedulers
     compile 'io.reactivex:rxandroid:1.0.1'
+    //bindings for Android Widgets
+    compile 'com.jakewharton.rxbinding:rxbinding:0.3.0'
 }

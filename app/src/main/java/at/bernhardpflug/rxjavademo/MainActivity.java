@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.exampleTwo)
     void onExampleTwoClick() {
-        startActivity(new Intent(this,ExampleTwoActivity.class));
+        startActivity(new Intent(this, ExampleTwoActivity.class));
+    }
+
+    @OnClick(R.id.exampleThree)
+    void onExampleThreeClick() {
+        startActivity(new Intent(this, ExampleThreeActivity.class));
     }
 }
