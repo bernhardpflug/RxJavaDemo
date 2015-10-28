@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bernhardpflug.at.rxjavademo">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,6 +26,9 @@
         <activity
             android:name="at.bernhardpflug.rxjavademo.ExampleThreeActivity"
             android:label="@string/title_activity_example_three"></activity>
+        <activity
+            android:name="at.bernhardpflug.rxjavademo.four.ExampleFourActivity"
+            android:label="@string/title_activity_example_four"></activity>
     </application>
 
 </manifest>
