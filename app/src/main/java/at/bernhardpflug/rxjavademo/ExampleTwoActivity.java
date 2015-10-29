@@ -53,7 +53,7 @@ public class ExampleTwoActivity extends AppCompatActivity {
         });
         we can use lambda expressions and reduce it to...
         */
-        listObservable.map(s -> s.toUpperCase());
+        listObservable = listObservable.map(s -> s.toUpperCase());
 
         //using lambda expressions reduces the boilerplate code
         listObservable.subscribe((s -> textView.setText(textView.getText() + "on " + Thread.currentThread().getName() + ": " + s + "\n")));
